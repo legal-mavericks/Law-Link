@@ -1,9 +1,10 @@
 import Image from 'next/image'
 
 export default function Home() {
+  const rand = Math.random()
   return (
-    <div>
-      Jai shree ram
-    </div>
+    <h1>
+      {rand}
+    </h1>
   )
 }
